@@ -1,0 +1,33 @@
+.uploader {
+	margin: 30px auto 10px;
+	text-align: center;
+}
+label input {
+	height: 0;
+	width: 0;
+	opacity: 0;
+}
+label {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: 2px solid var(--primary);
+	border-radius: 50%;
+	margin: 10px auto;
+	line-height: 24px;
+	color: var(--primary);
+	font-weight: bold;
+	font-size: 24px;
+	cursor: pointer;
+}
+label:hover {
+	background: var(--primary);
+	color: white;
+}
+.uploader__output {
+	height: 60px;
+	font-size: 0.8rem;
+}
+.uploader__output--error {
+	color: var(--error);
+}
